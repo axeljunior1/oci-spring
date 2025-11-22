@@ -1,0 +1,64 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Fichiers de configuration locaux
+out/
+classes/
+**/target/
+
+# Logs
+logs/
+*.log
+
+# OS files Mac/Linux/Windows
+.DS_Store
+Thumbs.db
+
+# Build cache
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/.gradle/
+
+### Spring Boot ###
+# Exclure les fichiers compilés
+target/
+
+# Exclure les fichiers temporaires
+*.tmp
+*.temp
+*.swp
+
+# Exclure les fichiers de configuration sensibles
+application*.yml
+application*.yaml
+application*.properties
+
+# Autoriser un fichier de config exemple
+!application-example.yml
+!application-example.properties
+
+# Base de données locale (si utilisée)
+*.h2.db
+*.mv.db
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Logs
+*.log
+*.out
+
+### Tests ###
+# Coverage
+coverage/
+*.exec
+
+### Docker ###
+# Facultatif : si tu génères vos images localement
+docker-compose.override.yml
