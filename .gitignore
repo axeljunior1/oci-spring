@@ -17,10 +17,6 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Build cache
-.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
-.mvn/.gradle/
 
 ### Spring Boot ###
 # Exclure les fichiers compilés
